@@ -19,7 +19,7 @@ int factorial(int num)
 
 int main()
 {
-	int num,r,nPr;
+	int num,r,nCr;
 	
 	printf("enter the total number and the value of r: \n");
 	scanf("%d%d",&num,&r);
@@ -29,9 +29,9 @@ int main()
 	
 	
 	
-	nPr = factorial(num)/(factorial(r)*factorial(num-r));
+	nCr = factorial(num)/(factorial(r)*factorial(num-r));
 	
-	printf("the value of nCr is: %d",nPr); 
+	printf("the value of nCr is: %d",nCr); 
 	
 	return 0;
 }
