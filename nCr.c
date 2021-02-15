@@ -31,7 +31,7 @@ int main()
 	
 	nPr = factorial(num)/(factorial(r)*factorial(num-r));
 	
-	printf("the value of nPr is: %d",nPr); 
+	printf("the value of nCr is: %d",nPr); 
 	
 	return 0;
 }
